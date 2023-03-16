@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 브라우저 간의 호환성 적용 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- viewport : 화면 상 표시 영역 -->
+        <!-- width=device-width : 너비를 장치를 영역으로 설정 -->
+        <!-- initial-scale : 초기화면 배율 (1.0 = 100%) -->
+        <title>영화 소개</title>
+    </head>
+    <div>
+        <!-- 1번째 영역 -->
+        <div>
+            <!-- border: 두께 선종류 색상; -->
+            <!-- border: 5px solid red; -->
+            <h1 style=" margin: 0;padding: 10px; background-color:rgba(133, 40, 17, 0.342)">영화 소개</h1>
+        </div>
+        <!-- 2번째영역 -->
+        <div style="height: 1700px;">    
+            <nav style="width: 30%; height: 1700px; float: left; background-color: peachpuff">
+                <ol>
+                    <li><a href="index.html">스즈메의 문단속</a></li>
+                    <li><a href="2.html">더 퍼스트 슬램덩크</a></li>
+                    <li><a href="3_1.html">서치 2</a></li>
+                </ol>
+            </nav>
+            
+            <section style="width: 70%; height: 1700px; float: right; background-color:rgba(255, 145, 0, 0.514)">
+                <h2>더 퍼스트 슬램덩크</h2>
+                
+                <img src="./images/slamdunk.jpg" width="330px" >    
+                
+                <ul>
+                    <strong>
+                        <li>감독 : 이노우에 다케히코</li> 
+                        <li>장르 : 애니메이션</li>
+                        <li>기본 : 12, 124분, 일본</li>
+                        <li>개봉 : 2023.01.04</li>
+                    </strong>
+                </ul>
+
+                <p>
+                전국 제패를 꿈꾸는 북산고 농구부 5인방의<strong>꿈과 열정, 멈추지 않는 도전</strong>을 그린 영화
+                </p>
+                
+                <p>    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QeyCHDBjbmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </p>
+
+                <p>
+                    <video width= "560" controls = ""
+                    poster="./images/slamdunk_video.jpg"
+                    >
+                        <source src="./images/slamdunk_1200_128_960_540.mp4"
+                        dtype = "video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </p>
+
+            </section>    
+        </div>
+    </body>
+</html>
