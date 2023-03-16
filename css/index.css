@@ -1,0 +1,20 @@
+/* header{
+    
+} */
+
+.content{
+    display: flex;
+    height: 1700px;
+}
+nav {
+    background-color: peachpuff;
+    flex: 30%;
+    height: 1700px;
+}
+
+section{
+    background-color:rgba(135, 207, 235, 0.37);
+    flex: 70%;
+    height: 1700px;
+}
+

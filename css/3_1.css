@@ -1,0 +1,59 @@
+@import "reset.css";
+
+header>h1{
+    margin: 0;
+    padding: 20px 0px 20px 0px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    background-color:rgba(133, 40, 17, 0.342);
+}
+
+.content{
+    display: flex;
+}
+nav{
+    background-color: darksalmon;
+    flex: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    margin: 10;
+    height: 1700px;
+    float: left;
+    line-height: 30px;
+}
+
+section{
+    background-color: cadetblue;
+    flex: 70%;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 1700px;
+    float: right;
+}
+
+section>h2{
+    font-size: 25px;
+    font-weight: 900;
+    padding : 0px 0px 10px 0px;
+}
+
+section>ul{
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+}
+
+section>ul>li{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 900;
+    list-style: none;
+}
+
+section p{
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+    line-height: 20px;
+}
+
